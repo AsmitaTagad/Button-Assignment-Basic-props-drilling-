@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <div>
-     <Button style={buttonStyle} onClick={handleClick}/>
+     <Button label="Click Me!" style={buttonStyle} onClick={handleClick}/>
     </div>
   );
 }
